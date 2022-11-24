@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, deleteTodo, removeTodo } from "../actions";
+import { addTodo, deleteTodo, removeTodo } from "../actions/indexAction";
 
 function Todo() {
     const [inpData, setInpData] = useState();
