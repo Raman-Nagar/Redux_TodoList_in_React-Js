@@ -1,20 +1,7 @@
-export const addTodo = (data) => {
-    return {
-        type: "ADD_TODO",
-        payload: {
-            id: new Date().getTime().toString(),
-            data: data
-        }
-    }
-}
-export const deleteTodo = (id) => {
-    return {
-        type: "DELETE_TODO",
-        id: id
-    }
-}
-export const removeTodo = () => {
-    return {
-        type: "REMOVE_TODO"
-    }
-}
+import { combineReducers } from "redux";
+import TodoReducer from "./TodoReducer";
+
+const rootReducer = combineReducers({
+    TodoReducer
+})
+export default rootReducer;
