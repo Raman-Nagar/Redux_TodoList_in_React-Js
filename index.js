@@ -19,18 +19,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-// import "./App.css";
-// import { Provider } from "react-redux";
-// import store from "./store";
-
-// function App() {
-//   return (
-//     <Provider store={store}>
-//       <div>App Component</div>
-//     </Provider>
-//   );
-// }
-
-// export default App;
